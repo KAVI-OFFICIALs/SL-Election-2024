@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.poll-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button {
+    margin-top: 10px;
+}
