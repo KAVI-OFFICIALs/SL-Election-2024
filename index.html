@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Election Poll</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sri Lanka Election Poll</h1>
+    <div class="poll-options">
+        <div class="option" id="party1">
+            <img src="party1.png" alt="Party 1">
+            <button onclick="vote('party1')">Vote</button>
+        </div>
+        <div class="option" id="party2">
+            <img src="party2.png" alt="Party 2">
+            <button onclick="vote('party2')">Vote</button>
+        </div>
+        <!-- Add more parties as needed -->
+    </div>
+    <div id="results"></div>
+    <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"></script>
+    <script src="app.js"></script>
+</body>
+  </html>
